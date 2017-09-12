@@ -2,4 +2,5 @@ language: node_js
 node_js: 0.10.26
 sudo: required
 install: travis_wait npm install
-install:travis_wait nvm install 0.10.26
+install: travis_wait nvm install 0.10.26
+test: travis_wait npm test
