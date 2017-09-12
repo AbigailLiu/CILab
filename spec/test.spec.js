@@ -3,7 +3,7 @@ var helloWorld = require("../index.js")
 
 var base_url = "http://localhost:49003/";
 
-console.log('this is a new guy');
+console.log('this is Abigail');
 
 describe("Hello World Server", function() {
    describe("GET /", function() {
