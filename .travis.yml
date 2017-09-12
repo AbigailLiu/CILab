@@ -3,4 +3,4 @@ node_js: 0.10.26
 sudo: required
 install: travis_wait npm install
 before_script:
-    - "sudo npm i -g jasmine-node"
+    "npm i -g jasmine-node"
